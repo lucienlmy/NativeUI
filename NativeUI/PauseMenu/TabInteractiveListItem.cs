@@ -22,7 +22,8 @@ namespace NativeUI.PauseMenu
         public List<UIMenuItem> Items { get; set; }
         public int Index { get; set; }
         public bool IsInList { get; set; }
-        protected const int MaxItemsPerView = 15;
+       //原始 protected const int MaxItemsPerView = 15;
+        protected const int MaxItemsPerView = 20;
         protected int _minItem;
         protected int _maxItem;
 

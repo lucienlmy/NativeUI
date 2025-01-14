@@ -61,7 +61,9 @@ namespace NativeUI
         private bool _itemsDirty = false;
 
         //Pagination
-        private const int MaxItemsOnScreen = 9;
+       //原始 private const int MaxItemsOnScreen = 9;
+       //数字写多少列数会多一行 写15，实际16列
+        private const int MaxItemsOnScreen = 15;
         private int _minItem;
         private int _maxItem = MaxItemsOnScreen;
 
