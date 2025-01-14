@@ -33,9 +33,8 @@
     <DocumentationFile>bin\x64\Release\NativeUI.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ScriptHookVDotNet2, Version=2.10.12.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ScriptHookVDotNet2.2.10.12\lib\net48\ScriptHookVDotNet2.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ScriptHookVDotNet2">
+      <HintPath>..\..\..\..\1 Support\ScriptHookVDotNet2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
